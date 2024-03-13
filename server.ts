@@ -3,7 +3,7 @@ import mongoose from "mongoose"
 import shortURLData from "./models/shortURL"
 
 const app = express()
-mongoose.connect('mongodb+srv://marcoantonioaraujo:D7u5EFHDh6aY970c@url-shortener.hoqmnvn.mongodb.net/?retryWrites=true&w=majority&appName=url-shortener')
+mongoose.connect('...')
 
 app.use(express.urlencoded({ extended: false }))
 app.set('view engine', 'ejs')
